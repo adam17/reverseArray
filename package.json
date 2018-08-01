@@ -1,0 +1,14 @@
+{
+  "name": "reversearray",
+  "version": "1.0.0",
+  "description": "reverseArray and reverseArrayInPlace",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha *test*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
