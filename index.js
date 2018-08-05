@@ -17,6 +17,9 @@ module.exports = {
       return [];
 
     let temp;
+    /*
+     * All I need to do is run through only half of the array
+     */
     for (let i = 0; i < Math.floor(arr.length / 2); i++) {
       temp = arr[i];
       arr[i] = arr[arr.length - 1 - i];
