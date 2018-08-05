@@ -5,7 +5,7 @@ const reverseArr = require('.');
 
 let arrA = ["A", "B", "C"];
 let arrB = [1, 2, 3, 4, 5];
-let arrC = [11, 11, 22, 44, 66, 77];
+let arrC = [11, 11, 22, 44, 66, 77]; // even number of elements
 
 describe('reverseArray takes an array as argument and produces a new array that has the same elements in the inverse order', () => {
   it('empty response when empty parameter', () => {
